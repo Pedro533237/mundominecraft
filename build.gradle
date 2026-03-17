@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.mundominecraft'
+version = '1.0.2'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+    withSourcesJar()
+}
+
+tasks.processResources {
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+}
+
+tasks.jar {
+    archiveBaseName = 'pizza-world-mod'
+    manifest {
+        attributes(
+            'Implementation-Title': 'Pizza World Mod',
+            'Implementation-Version': project.version
+        )
+    }
+}

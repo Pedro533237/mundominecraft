@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pizzaworld",
+  "version": "1.0.2",
+  "name": "Pizza World Mod",
+  "description": "Data-driven radial pizza world preset with centered spawn.",
+  "authors": ["MundoMinecraft"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": ["library"]
+    }
+  }
+}
