@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "pedrixzz_world",
+  "version": "1.1.0",
+  "name": "PedrixzZ World",
+  "description": "Gera um mundo customizado de 6144x6144 com biomas em fatias e centro de cogumelos.",
+  "authors": [
+    "PedrixzZ"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.manus.pizzaworld.PizzaWorld"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
